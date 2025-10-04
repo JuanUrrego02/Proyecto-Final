@@ -1,0 +1,165 @@
+    <!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taller Mecánico AutoExpert</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link rel="shortcut icon" href="/img/logo.png" type="image/x-icon">
+</head>
+<body>
+    <!-- Encabezado principal con navegación -->
+    <header>
+        <div class="container">
+            <h1><i class="fa-solid fa-car"></i> | AutoExpert</h1>
+            <p>Tu taller de confianza</p>
+            <img src="img/logo.png" alt="Logo de AutoExpert" class="logo">
+            <!-- Menú de navegación -->
+            <nav>
+                <a href="#inicio">Inicio</a>
+                <a href="#servicios">Servicios</a>
+                <a href="#sobre-nosotros">Sobre Nosotros</a>
+                <a href="#contacto">Contacto</a>
+                <div>
+                    <input type="text" placeholder="Busca la marca de tu carro..." class="input-buscar">
+                <button class="btn-buscar">Buscar</button>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Sección principal -->
+    <main class="container" id="inicio">
+        <!-- Introducción -->
+        <section class="intro">
+            <h2>Especialistas en Reparación de Vehículos</h2>
+            <p>Trabajamos con las mejores marcas del mercado. Calidad y profesionalismo garantizados.</p>
+        </section>
+
+        <!-- Grid de marcas de carros con imágenes -->
+        <section class="marcas-grid" id="galeria-marcas">
+            <!-- Mazda -->
+            <div class="marca-card" data-marca="mazda">
+                <div class="imagen-container">
+                    <img src="https://images.unsplash.com/photo-1621007947382-bb3c3994e3fb?w=400&h=250&fit=crop" alt="Mazda">
+                </div>
+                <h3>Mazda</h3>
+                <p>Especialistas en la marca japonesa. Mantenimiento y reparación completa.</p>
+                <a href="https://www.ejemplo.com/servicios-mazda" target="_blank">
+                    <button>Ver servicios</button>
+                </a>
+            </div>
+
+            <!-- Renault -->
+            <div class="marca-card" data-marca="renault">
+                <div class="imagen-container">
+                    <img src="https://images.unsplash.com/photo-1552519507-da3b142c6e3d?w=400&h=250&fit=crop" alt="Renault">
+                </div>
+                <h3>Renault</h3>
+                <p>Expertos en vehículos franceses. Diagnóstico y reparación especializada.</p>
+                <a href="https://www.ejemplo.com/servicios-renault" target="_blank">
+                    <button>Ver servicios</button>
+                </a>
+            </div>
+
+            <!-- Chevrolet -->
+            <div class="marca-card" data-marca="chevrolet">
+                <div class="imagen-container">
+                    <img src="https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=400&h=250&fit=crop" alt="Chevrolet">
+                </div>
+                <h3>Chevrolet</h3>
+                <p>Atención profesional para tu Chevrolet. Todas las líneas y modelos.</p>
+                <a href="https://www.ejemplo.com/servicios-chevrolet" target="_blank">
+                    <button>Ver servicios</button>
+                </a>
+            </div>
+        </section>
+
+        <!-- Sección de Servicios -->
+        <section class="servicios-section" id="servicios">
+            <h2>Nuestros Servicios</h2>
+            <div class="servicios-grid">
+                <!-- Servicio 1 -->
+                <div class="servicio-card">
+                    <div class="servicio-icono"></div>
+                    <h3>Mantenimiento Preventivo</h3>
+                    <p>Revisión completa de tu vehículo para evitar problemas futuros. Incluye cambio de aceite, filtros y revisión general.</p>
+                </div>
+
+                <!-- Servicio 2 -->
+                <div class="servicio-card">
+                    <div class="servicio-icono"></div>
+                    <h3>Reparación de Motor</h3>
+                    <p>Diagnóstico y reparación especializada de motores. Contamos con tecnología de punta para detectar cualquier falla.</p>
+                </div>
+
+                <!-- Servicio 3 -->
+                <div class="servicio-card">
+                    <div class="servicio-icono"></div>
+                    <h3>Sistema Eléctrico</h3>
+                    <p>Revisión y reparación del sistema eléctrico completo. Batería, alternador, sensores y más.</p>
+                </div>
+
+                <!-- Servicio 4 -->
+                <div class="servicio-card">
+                    <div class="servicio-icono"></div>
+                    <h3>Frenos y Suspensión</h3>
+                    <p>Servicio completo de frenos y suspensión. Tu seguridad es nuestra prioridad.</p>
+                </div>
+
+                <!-- Servicio 5 -->
+                <div class="servicio-card">
+                    <div class="servicio-icono"></div>
+                    <h3>Diagnóstico Computarizado</h3>
+                    <p>Escaneo computarizado para detectar fallas en la computadora de tu vehículo con equipos de última generación.</p>
+                </div>
+
+                <!-- Servicio 6 -->
+                <div class="servicio-card">
+                    <div class="servicio-icono"></div>
+                    <h3>Cambio de Aceite</h3>
+                    <p>Cambio de aceite y filtro con los mejores productos del mercado. Servicio rápido y eficiente.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección Sobre Nosotros -->
+        <section class="sobre-nosotros" id="sobre-nosotros">
+            <h2>Sobre Nosotros</h2>
+            <div class="sobre-contenido">
+                <div class="sobre-texto">
+                    <h3>¿Quiénes somos?</h3>
+                    <p>AutoExpert es un taller mecánico con más de 15 años de experiencia en el sector automotriz. Nos especializamos en el mantenimiento y reparación de vehículos de las principales marcas del mercado.</p>
+                    
+                    <h3>Nuestra Misión</h3>
+                    <p>Brindar servicios de calidad excepcional a nuestros clientes, garantizando la seguridad y el óptimo funcionamiento de sus vehículos a precios justos y competitivos.</p>
+                    
+                    <h3>¿Por qué elegirnos?</h3>
+                    <ul>
+                        <li>✓ Mecánicos certificados y experimentados</li>
+                        <li>✓ Equipos de diagnóstico de última generación</li>
+                        <li>✓ Repuestos originales garantizados</li>
+                        <li>✓ Presupuestos transparentes sin sorpresas</li>
+                        <li>✓ Atención personalizada y profesional</li>
+                        <li>✓ Garantía en todos nuestros trabajos</li>
+                    </ul>
+                </div>
+                <div class="sobre-imagen">
+                    <img src="img/motor.jpg" alt="Taller mecánico">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Pie de página -->
+    <footer id="contacto">
+        <div class="container">
+            <p>&copy; 2025 AutoExpert Taller Mecánico. Todos los derechos reservados.</p>
+            <p>Contáctanos: <i class="fa-solid fa-phone"></i> (322) 499-3786 | <i class="fa-solid fa-envelope"></i> autoexpert@gmail.com</p>
+            <img src="/img/logo.png" class="logo1" alt="">
+        </div>
+    </footer>
+
+</body>
+</html>
